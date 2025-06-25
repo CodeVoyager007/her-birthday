@@ -263,7 +263,7 @@ export default function BirthdayShow() {
         </div>
         {showBtn5 && (
           <button className="birthday-btn delayed-fade" onClick={() => setScene(6)}>
-            Here's your cake
+            Here&apos;s your cake
           </button>
         )}
       </div>
@@ -311,8 +311,8 @@ export default function BirthdayShow() {
             <div className="cake-frosting top"></div>
             <div className="cake-frosting topmost"></div>
             <div className="cake-candles">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="cake-candle">
+              {[...Array(5)].map((_, idx) => (
+                <div key={idx} className="cake-candle">
                   <div className="candle-wick"></div>
                 </div>
               ))}
@@ -386,8 +386,8 @@ export default function BirthdayShow() {
               <div className="cake-frosting top"></div>
               <div className="cake-frosting topmost"></div>
               <div className="cake-candles">
-                {[...Array(5)].map((_, i) => (
-                  <div key={i} className="cake-candle">
+                {[...Array(5)].map((_, idx) => (
+                  <div key={idx} className="cake-candle">
                     <div className="candle-wick"></div>
                     <div className="candle-flame"></div>
                   </div>
@@ -468,8 +468,8 @@ export default function BirthdayShow() {
             <div className="cake-frosting top"></div>
             <div className="cake-frosting topmost"></div>
             <div className="cake-candles">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="cake-candle">
+              {[...Array(5)].map((_, idx) => (
+                <div key={idx} className="cake-candle">
                   <div className="candle-wick"></div>
                   <div className="candle-flame"></div>
                 </div>
@@ -560,8 +560,8 @@ export default function BirthdayShow() {
             <div className="cake-frosting top"></div>
             <div className="cake-frosting topmost"></div>
             <div className="cake-candles">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="cake-candle">
+              {[...Array(5)].map((_, idx) => (
+                <div key={idx} className="cake-candle">
                   <div className="candle-wick"></div>
                   <div className="candle-flame"></div>
                 </div>
