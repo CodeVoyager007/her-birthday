@@ -248,7 +248,7 @@ export default function BirthdayShow() {
         </div>
         {/* 7 floating balloons */}
         <div className="balloon-float-zone">
-          {floatingBalloons.map((b, i) => (
+          {floatingBalloons.map((b) => (
             <Image
               key={b.key}
               src={b.img}
@@ -494,7 +494,7 @@ export default function BirthdayShow() {
   if (scene === 8) {
     // Letters for balloons
     const letters = ["H", "B", "D", "M", "A", "A", "N"];
-    // Use the same 7 real balloon images
+    
     return (
       <div className="birthday-litroom responsive-birthday">
         <audio ref={audioRef} src="/img/hbd.mp3" loop />
